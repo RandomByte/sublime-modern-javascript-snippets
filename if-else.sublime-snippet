@@ -1,8 +1,6 @@
 <snippet>
-	<content><![CDATA[if (${1:true}) {
-	${2:// If true...}
-} else {
-	${3:// If false...}
+	<content><![CDATA[if (${1}) {${2}
+} else {${3}
 }]]></content>
 	<tabTrigger>ife</tabTrigger>
 	<scope>source.js, source.jsx, source.ts, source.tsx</scope>

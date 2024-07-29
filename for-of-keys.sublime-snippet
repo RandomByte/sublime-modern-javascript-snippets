@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[for (const ${2:key} of ${1:map}.keys()) {
+	${2:key}${0}
+}]]></content>
+	<tabTrigger>fok</tabTrigger>
+	<scope>source.js, source.jsx, source.ts, source.tsx</scope>
+	<description>for (prop of map.keys)</description>
+</snippet>
